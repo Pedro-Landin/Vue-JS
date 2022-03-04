@@ -1,2 +1,2 @@
 # Vue-JS
-Mini projeto de Vue JS
+Repositório destinado para códigos de aprendizado de Vue JS
