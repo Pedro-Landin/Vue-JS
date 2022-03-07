@@ -1,10 +1,17 @@
 <template>
 <div class="backdrop">
-    <div class="modal">
-        <p>modal content</p>
+    <div class="modal" :class="{ sale: theme === 'sale'}">
+        <h1>{{ header }}</h1>
+        <p>{{ text }}</p>
     </div>
 </div>
 </template>
+
+<script>
+ export default {
+    props:['header', 'text', 'theme']
+ }
+</script>
 
 <style>
   .modal{
@@ -21,6 +28,15 @@
       background: rgba(0,0,200,0.5);
       width: 100%;
       height: 100%;
+  }
+  .modal p {
+      font-style: normal;
+  }
+  .modal.sale{
+      background: crimson;
+  }
+  .modal.sale h1{
+      color: white;
   }
 </style>
     
