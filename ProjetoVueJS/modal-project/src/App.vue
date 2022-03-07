@@ -8,7 +8,6 @@
 <script>
 import Modal from './components/Modal.vue'
 
-
 export default {
   name: 'App',
   components: { Modal },
@@ -17,6 +16,7 @@ export default {
      title: 'My First Vue App :)'
    }
  },
+ 
  methods: {
    handleClick(){
      console.log(this.$refs.name)
@@ -25,6 +25,7 @@ export default {
    }
  }
 }
+
 </script>
 
 <style>
