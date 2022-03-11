@@ -63,6 +63,6 @@ export default {
     color: white;
 }
 .modal.sale .actions a {
-    color: white;
+    color: white; 
 }
 </style>
