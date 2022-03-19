@@ -6,7 +6,6 @@
 <script>
 export default {
     props: ['id', 'name']
- 
 }
 </script>
 
